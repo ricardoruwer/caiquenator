@@ -1,1 +1,70 @@
-/* This file is for your main application css. */
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  align-content: center;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 2rem;
+}
+
+.magic {
+  background-image: url('/images/caiquenator.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30rem 30rem;
+  display: inline-block;
+  height: 30rem;
+  margin: 1rem;
+  width: 100%;
+}
+
+.lead {
+  background-color: #f8f9fa;
+  font-size: 1.8rem;
+  margin: 3rem;
+  padding: 3rem 4rem;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  border-radius: .25rem;
+  color: #6c757d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
