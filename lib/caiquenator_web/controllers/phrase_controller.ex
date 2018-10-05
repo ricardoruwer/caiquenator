@@ -1,13 +1,10 @@
 defmodule CaiquenatorWeb.PhraseController do
   use CaiquenatorWeb, :controller
 
-  @external_resource "priv/data.yml"
-  @phrases File.cwd!()
-           |> Path.join(@external_resource)
-           |> YamlElixir.read_from_file!()
+  alias Caiquenator.Phrases
 
   def show(conn, _params) do
-    phrase = Enum.random(@phrases)
+    phrase = Phrases.get_random()
 
     json(conn, %{data: phrase})
   end
