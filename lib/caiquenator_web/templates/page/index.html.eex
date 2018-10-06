@@ -1,9 +1,9 @@
-<p class="lead text-center">
-  <%= @phrase %>
-</p>
+<div data-random-phrase class="text-center">
+  <p data-phrase class="lead">
+    <%= @phrase %>
+  </p>
 
-<div class="text-center">
-  <button type="button" class="btn">
+  <button data-button type="button" class="btn">
     Gerar outra frase
   </button>
 </div>
