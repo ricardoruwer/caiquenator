@@ -10,7 +10,10 @@ const swapPhrase = (element) => {
 
   button.addEventListener("click", event => {
     fetchRandomPhrase()
-      .then(data => phraseTarget.innerHTML = data)
+      .then(data => {
+        phraseTarget.innerHTML = data
+        phraseTarget.dispatchEvent(new Event('rerender'))
+      })
   });
 }
 

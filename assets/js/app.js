@@ -20,3 +20,5 @@ import "phoenix_html"
 
 // import socket from "./socket"
 import "./swap-phrase"
+import "./render-images"
+
