@@ -3,7 +3,7 @@
     <%= @phrase %>
   </p>
 
-  <button data-button type="button" class="btn">
+  <button data-button type="button" class="btn explode">
     Gerar outra frase
   </button>
 </div>
