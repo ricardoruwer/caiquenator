@@ -20,3 +20,6 @@ import "phoenix_html"
 
 // import socket from "./socket"
 import "./swap-phrase"
+
+const ClipboardJS = require('clipboard');
+new ClipboardJS('.btn');
