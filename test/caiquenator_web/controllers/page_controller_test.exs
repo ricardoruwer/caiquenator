@@ -7,7 +7,7 @@ defmodule CaiquenatorWeb.PageControllerTest do
 
     phrase =
       html
-      |> Floki.find("p.lead")
+      |> Floki.find("p.phrase")
       |> Floki.text()
       |> String.trim()
 

@@ -42,8 +42,14 @@ h1 {
 .lead {
   background-color: #f8f9fa;
   font-size: 1.8rem;
-  margin: 3rem;
-  padding: 3rem 4rem;
+  margin: 3rem 5rem;
+  padding: 0 4rem 4rem;
+}
+
+.phrase {
+  font-size: 1.9rem;
+  letter-spacing: .02rem;
+  line-height: 2.4rem;
 }
 
 .btn {
