@@ -11,7 +11,7 @@ Check our wonder at [caiquenator.herokuapp.com](https://caiquenator.herokuapp.co
 
 - Install dependencies with `mix deps.get`
 - Install Node.js dependencies with `cd assets && npm install`
-- Run the tests with `mix test`
+- On app root folder, run the tests with `mix test`
 - Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
