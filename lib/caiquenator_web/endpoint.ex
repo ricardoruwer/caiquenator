@@ -1,7 +1,9 @@
 defmodule CaiquenatorWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :caiquenator
 
-  socket "/socket", CaiquenatorWeb.UserSocket
+  socket "/socket", CaiquenatorWeb.UserSocket,
+    websocket: true,
+    longpoll: false
 
   # Serve at "/" the static files from "priv/static" directory.
   #
