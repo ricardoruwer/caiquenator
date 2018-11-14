@@ -74,3 +74,5 @@ h1 {
   border-color: #6c757d;
   color: #fff;
 }
+
+@import "./copy-button.css"
