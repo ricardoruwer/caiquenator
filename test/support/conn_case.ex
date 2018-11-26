@@ -19,16 +19,14 @@ defmodule CaiquenatorWeb.ConnCase do
     quote do
       # Import conveniences for testing with connections
       use Phoenix.ConnTest
-      import CaiquenatorWeb.Router.Helpers
+      alias CaiquenatorWeb.Router.Helpers, as: Routes
 
       # The default endpoint for testing
       @endpoint CaiquenatorWeb.Endpoint
     end
   end
 
-
   setup _tags do
     {:ok, conn: Phoenix.ConnTest.build_conn()}
   end
-
 end

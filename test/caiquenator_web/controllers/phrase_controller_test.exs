@@ -6,7 +6,7 @@ defmodule CaiquenatorWeb.PhraseControllerTest do
 
     response =
       conn
-      |> get(phrase_path(conn, :show))
+      |> get(Routes.phrase_path(conn, :show))
       |> json_response(200)
 
     assert phrases =~ response["data"]
