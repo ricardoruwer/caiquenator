@@ -1,0 +1,10 @@
+# https://hexdocs.pm/phoenix/heroku.html#adding-the-phoenix-static-buildpack
+
+npm run deploy
+
+cd $phoenix_dir
+mix "${phoenix_ex}.digest"
+
+if mix help "${phoenix_ex}.digest.clean" 1>/dev/null 2>&1; then
+  mix "${phoenix_ex}.digest.clean"
+fi
